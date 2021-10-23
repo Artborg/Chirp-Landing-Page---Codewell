@@ -1,0 +1,362 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@200;400;600;700&family=Inter:wght@200;400;700&family=Nunito:wght@200;300;400;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Inter';
+}
+
+/* Navbar */
+
+header {
+    background-color: #FBF8F3;
+}
+
+.navbar-brand {
+    padding: 2rem 0;
+    font-weight: 700;
+    font-style: italic;
+}
+
+
+
+.nav-link {
+    color: #595959;
+    margin-right: 2rem;
+    float: right;
+}
+
+.nav-link:hover {
+    transition: ease-in-out all .4s; 
+    color: black;
+}
+
+.signIn {
+    border: 0px;
+    background-color: #1DA1F2;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+
+.signInHero {
+    border: 0px;
+    background-color: #1DA1F2;
+    padding: 1rem;
+    border-radius: 5px;
+    margin-right: 2rem;
+}
+
+
+
+.signInHero a {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.signInHero img {
+    margin-right: 1rem;
+}
+
+
+.signIn a {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.signIn img {
+    margin-right: 1rem;
+}
+
+
+/* Hero Section */
+
+.banner {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.lead {
+    font-weight: 400;
+    color: #737373;
+}
+
+
+.learnMore {
+    text-decoration: none;
+    color: #1F7898;
+    font-weight: 700;
+}
+
+.users {
+    margin-left: 25px;
+}
+
+.users img {
+    margin-left: -25px;
+    
+}
+
+.joinUser {
+    color: #737373;
+}
+
+.joinUser span {
+    font-weight: 700;
+    color: #1F7898;
+}
+
+
+
+
+
+/* Features Section */
+
+h2 {
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+.card1 {
+    padding: 1rem;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 5px;
+    color: #737373;
+}
+
+.cardName {
+    font-weight: bold;
+    color: black;
+}
+
+.emoji {
+    font-size: 2rem;
+}
+
+
+/* Customers Feedback */
+.feedback {
+    background-color: #D7F5F5;
+}
+
+
+.userCard {
+    padding: 2rem;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.userHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.userInfo {
+    display: flex;
+}
+
+.userInfo img {
+    margin-right: 1rem;
+    width: 55px;
+}
+
+.userName p {
+    margin: 0;
+    font-weight: 700;
+}
+
+.userMessage {
+    margin-bottom: 1rem;
+}
+
+.userLikes {
+    display: flex;
+    align-items: center;
+}
+
+.userLikes span {
+    font-size: 1rem;
+    margin-left: .4rem;
+}
+
+.userMessage {
+    color: #737373;
+}
+
+.date {
+    font-size: 1rem;
+
+}
+
+.userFooter {
+    display: flex;
+    justify-content: space-between;
+    color: #737373;
+}
+
+
+/* Price Plan */
+.price h2 {
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.price p {
+    color: #737373;
+}
+
+
+.cardContainer {
+    background-color: #FBF8F3;
+    border: 1px solid #FFAD23;
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.cardHeader p {
+    margin-bottom: 0px;
+    font-size: 1rem;
+}
+
+.cardHeader span {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.cardHeader small {
+    margin-left: -5px;
+    font-size: 1.1rem;
+    color: #737373;
+}
+
+.list-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 15px;
+    color: #737373;
+    
+}
+
+.list-item p {
+    margin-bottom: 0%;
+    padding-left: 15px;
+}
+
+
+.trialButton {
+    padding: 1rem;
+    width: 100%;
+    border: 0;
+    background-color: #00ACEE;
+    border-radius: 5px;
+}
+
+.trialButton a {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+.trialButton img {
+    padding-right: 15px;
+}
+
+
+
+@media (max-width:991px) {
+    .banner {
+        font-size: 3.5rem;
+    }
+
+
+}
+
+
+@media (max-width:768px) {
+    .banner {
+        font-size: 3rem;
+    }
+
+    .signInHero {
+        width: 100%;
+        margin: 1rem 0;
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+@media (max-width:768px) {
+    .banner {
+        font-size: 2.5rem;
+    }
+
+}
+
+@media (max-width:480px) {
+    .footer-content {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar-brand-footer {
+        padding-bottom: 0.6rem;
+    }
+}
+
+
+
+/* Footer */
+
+footer {
+    background-color: #D7F5F5;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 2rem;
+}
+
+.terms {
+    display: flex;
+}
+
+.terms p {
+    margin-bottom: 0px;
+}
+
+.terms img {
+    width: 20px;
+}
+
+.termsofuse {
+    margin-left: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.privacy {
+    margin-left: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.navbar-brand-footer {
+    font-weight: 700;
+    font-style: italic;
+    text-decoration: none;
+}
